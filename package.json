@@ -1,0 +1,30 @@
+{
+  "name": "Google-OAuth",
+  "version": "1.0.0",
+  "description": "Demo repo to show how to use google oauth",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitgor/Google-OAuth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitgor/Google-OAuth/issues"
+  },
+  "homepage": "https://github.com/smitgor/Google-OAuth#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
