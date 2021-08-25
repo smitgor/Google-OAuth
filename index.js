@@ -3,8 +3,16 @@ const app = express();
 
 const port = process.env.PORT || 5000;
 
+//middleware
+app.set('view engine','ejs');
+app.use(express.json());
+
 app.get('/',(req,res) => {
-    res.send('<h1>Hi there</h1>')
+    res.render('index');
+})
+
+app.get('/login',(req,res) => {
+    res.render('login');
 })
 
 app.listen(port, ()=>{
